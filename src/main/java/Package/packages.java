@@ -2,7 +2,11 @@ package Package;
 
 import java.sql.Blob;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+@EntityScan
 public class packages {
+	
 	private int packageID;
 	private String packageName;
 	private double packagePrice;
